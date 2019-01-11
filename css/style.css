@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    transition: .3s;
+}
+
+.top-line {
+    width: 100%;
+    height: 10px;
+    background: rgb(195, 249, 232);
+}
+
+.logo-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-title span {
+    color: #4deab9;
+}
+
+.nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar {
+    padding: 16px 0;
+}
+
+.section-title {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.padd {
+    padding-top: 38px;
+    padding-bottom: 14px;
+}
+
+input[type="search"] {
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    transition: .3s;
+    border-color: #dddddd;
+}
+
+input[type="search"]:focus {
+    border-bottom: 1px solid #dddddd;
+}
+
+.search {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("../img/s.png");
+}
+
+.sel-lang button{
+    font-size: 12px !important;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.person {
+    width: 28px;
+    height: 28px;
+}
+
+.line-p {
+    margin: 0 8px;
+    height: 16px;
+    width: 1px;
+    background: #dddddd;
+}
+
+.box-info {
+    width: 100%;
+    height: 68px;
+    background: rgb(245, 245, 245);
+    margin-bottom: 60px;
+}
+
+.box-info .row {
+    height: 68px;
+}
+
+.box-info p{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.icon-box {
+    display: inline-block;
+    padding: 6px;
+    background: rgb(235, 235, 235);
+    border-radius: 50%;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.sale img {
+    width: 100%;
+    display: block;
+}
+
+.im img {
+    object-fit: cover;
+}
+
+.fit {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0px solid #ccc !important;
+    background: #f4f4f4;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.fit img {
+    transition: .4s;
+}
+
+.fit:hover {
+    background: #eee;
+}
+
+.fit:hover img {
+    transform: scale(0.95);
+}
+
+.fit-big {
+    width: 100%;
+    height: 470px;
+}
+
+.fit-small {
+    width: 100%;
+    height: 220px;
+}
+
+.fit img {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.w-line {
+    width: 150px;
+    margin: 30px auto 50px;
+    height: 2px;
+    background: #dddddd;
+}
+
+.carousel-item {
+    height: 475px;
+}
+
+/* .carousel-control-prev-icon {
+    background-image: url(../img/);
+} */
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 5px 0;
+}
+
+.grey {
+    color: #dddddd;
+}
+
+.blog .card-body {
+    font-size: 14px;
+}
+
+.posts a {
+    padding: 15px 30px;
+    border: 1px solid #dddddd;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.subscribe {
+    padding: 40px 0;
+    background: rgb(245, 245, 245);
+}
+
+.subscribe h1 {
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.subscribe p {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.subscribe input {
+    width: 300px;
+    height: 50px;
+    padding: 5px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    height: 50px;
+    width: 130px;
+    background: black;
+    color: white;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: rgb(33, 33, 33);
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer a {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.fs18 {
+    font-size: 18px
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.pageTop {
+    background: rgb(42, 42, 42);
+}
+
+.f-taf {
+    font-size: 22px;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+.top-footer {
+    font-weight: 300;
+}
+
